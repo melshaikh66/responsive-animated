@@ -1,0 +1,102 @@
+/*
+template name: animated-responsive
+coder name: Mostafa Elshaikh
+*/
+body {
+    font-family: 'Merienda', cursive;
+}
+
+/*start navbar*/
+.navbar {
+    font-family: 'pt sans narrow', arial, sans-serif;
+    font-weight: bold;
+    border-bottom: 1px solid #3F51B5;
+}
+
+.bg-dark {
+    background-color: #007bff !important;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+.navbar .navbar-brand:hover {
+    font-style: italic;
+    font-size: 1.5rem;
+    color: #fff;
+    opacity: 1
+}
+
+.navbar a {
+    color: #fff;
+    opacity: 0.7;
+}
+
+.navbar a:hover {
+    opacity: 1;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+/*start header*/
+
+.header {
+    height: 800px;
+    width: 100%;
+    padding: 10px 0;
+    background-image: url(../images/002.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #fff
+}
+
+.header .header-image,
+.header .header-info {
+    margin-top: 150px;
+}
+
+.header .header-info h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.header .header-info p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+
+}
+
+.header .header-info button {
+    margin-left: 10px
+}
+
+@media (max-width: 768px) {
+
+    .header .header-image,
+    .header .header-info {
+        margin-top: 30px;
+    }
+
+    .header .header-info h1 {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+
+}
+}
+
+
+
+
+
+/*start header*/
+
+@media (min-width: 768px)
