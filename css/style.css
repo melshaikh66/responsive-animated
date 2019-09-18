@@ -4,6 +4,7 @@ coder name: Mostafa Elshaikh
 */
 body {
     font-family: 'Merienda', cursive;
+    height: 4000px
 }
 
 /*start navbar*/
@@ -52,7 +53,7 @@ body {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    color: #fff
+    color: #776b6b
 }
 
 .header .header-image,
@@ -64,6 +65,8 @@ body {
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 30px;
+    color: #2c2424;
+    text-shadow: -3px -2px 13px black;
 }
 
 .header .header-info p {
@@ -77,6 +80,9 @@ body {
 }
 
 @media (max-width: 768px) {
+    .header {
+        height: 700px;
+    }
 
     .header .header-image,
     .header .header-info {
@@ -88,15 +94,154 @@ body {
         font-weight: bold;
         margin-bottom: 15px;
     }
-
-
-}
 }
 
+/*end header*/
 
+/*start services*/
+.services {
+    margin: 50px 0;
+}
 
+.services .services-info {
+    margin-bottom: 70px
+}
 
+.services .services-info h2 {
+    margin-bottom: 30px;
+    color: #2c2424;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: -3px -2px 13px black;
+}
 
-/*start header*/
+.services .services-info p {
+    color: #776b6b;
+    font-size: 18px
+}
 
-@media (min-width: 768px)
+.services .service-box {
+    padding: 30px 0;
+    border: 1px solid #ddd;
+    box-shadow: -5px -5px 10px 0px #c1b4b4;
+    margin-bottom: 20px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.services .service-box:hover {
+    background-color: #007bff;
+    padding-top: 25px;
+    box-shadow: -7px -7px 15px 0px #c1b4b4;
+}
+
+.services .service-box:hover i,
+.services .service-box:hover h4,
+.services .service-box:hover p {
+    color: #fff;
+}
+
+.services .service-box i {
+    color: #007bff;
+    margin-bottom: 20px;
+
+}
+
+.services .service-box h4 {
+    color: #463939;
+    margin-bottom: 20px;
+
+}
+
+.services .service-box p {
+    color: #776b6b;
+    margin-bottom: 20px
+}
+
+/*end services*/
+/*start pricing*/
+.pricing {
+    margin: 50px 0;
+}
+
+.pricing .pricing-info {
+    margin-bottom: 50px
+}
+
+.pricing .pricing-info h2 {
+    margin-bottom: 30px;
+    color: #2c2424;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: -3px -2px 13px black;
+}
+
+.pricing .pricing-info p {
+    color: #776b6b;
+    font-size: 18px
+}
+
+.pricing .card {
+    padding: 20px 0;
+    margin-left: 20px;
+    box-shadow: -5px -5px 10px 0px #c1b4b4;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.pricing .card:hover {
+    padding-top: 15px;
+    box-shadow: -7px -7px 15px 0px #c1b4b4;
+}
+
+.pricing .card .card-body {
+    padding-bottom: 0
+}
+
+.pricing .card .card-body h4 {
+    text-decoration: underline;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.pricing .card:hover .card-body h4 {
+    font-weight: bold;
+    font-size: 40px
+}
+
+.pricing .card .card-body h2 {
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+.pricing .card .card-body p:first-of-type {
+    font-weight: bold;
+    font-size: 20px
+}
+
+.pricing .card .card-body p:last-of-type {
+    margin-bottom: 0;
+    color: #9a9999
+}
+
+.pricing .card hr {
+    width: 75%;
+    height: 2px
+}
+
+.pricing .card ul li {
+    border: none;
+    color: #776b6b
+}
+
+/*end pricing*/
+
+@media (max-width: 768px) color: #776b6b;
+color: #2c2424;
+#007bff
