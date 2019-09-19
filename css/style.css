@@ -4,7 +4,7 @@ coder name: Mostafa Elshaikh
 */
 body {
     font-family: 'Merienda', cursive;
-    height: 4000px
+    height: 5000px
 }
 
 /*start navbar*/
@@ -100,7 +100,7 @@ body {
 
 /*start services*/
 .services {
-    margin: 50px 0;
+    margin: 80px 0;
 }
 
 .services .services-info {
@@ -163,7 +163,8 @@ body {
 /*end services*/
 /*start pricing*/
 .pricing {
-    margin: 50px 0;
+    padding: 80px 0;
+    background-color: #007bff;
 }
 
 .pricing .pricing-info {
@@ -172,20 +173,20 @@ body {
 
 .pricing .pricing-info h2 {
     margin-bottom: 30px;
-    color: #2c2424;
+    color: #fff;
     font-size: 40px;
     font-weight: bold;
     text-shadow: -3px -2px 13px black;
 }
 
 .pricing .pricing-info p {
-    color: #776b6b;
+    color: #fff;
     font-size: 18px
 }
 
 .pricing .card {
     padding: 20px 0;
-    margin-left: 20px;
+    margin-bottom: 20px;
     box-shadow: -5px -5px 10px 0px #c1b4b4;
     -webkit-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -196,6 +197,12 @@ body {
 .pricing .card:hover {
     padding-top: 15px;
     box-shadow: -7px -7px 15px 0px #c1b4b4;
+}
+
+.pricing .card:hover .card-body h2 {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 20px;
 }
 
 .pricing .card .card-body {
@@ -241,7 +248,164 @@ body {
 }
 
 /*end pricing*/
+/*start our team*/
+.team {
+    margin: 80px 0;
+}
 
+.team .team-info {
+    margin-bottom: 70px
+}
+
+.team .team-info h2 {
+    margin-bottom: 30px;
+    color: #2c2424;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: -3px -2px 13px black;
+}
+
+.team .team-info p {
+    color: #776b6b;
+    font-size: 18px
+}
+
+.team .team-member {
+    padding: 20px 0;
+    border: 1px solid #ddd;
+    box-shadow: -5px -5px 10px 0px #c1b4b4;
+    margin-bottom: 20px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.team .team-member:hover {
+    border-top: 10px solid #007bff;
+    padding-top: 5px
+}
+
+.team .team-member img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px
+}
+
+.team .team-member b {
+    display: inline-block;
+    margin-bottom: 20px
+}
+
+.team .team-member .team-social {
+    margin: 20px 0;
+}
+
+.team .team-member .team-social a {
+    margin-left: 10px
+}
+
+.team .team-member .team-social .fa-facebook-f {
+    color: #3b5998
+}
+
+.team .team-member .team-social .fa-twitter {
+    color: #1da1f2
+}
+
+.team .team-member .team-social .fa-linkedin-in {
+    color: #0077b5
+}
+
+.team .team-member .team-social .fa-pinterest-p {
+    color: #bd081c
+}
+
+/*end our team*/
+/*start clients*/
+.clients {
+    padding: 80px 0;
+    background-color: #007bff;
+}
+
+.clients .clients-info {
+    margin-bottom: 50px
+}
+
+.clients .clients-info h2 {
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: -3px -2px 13px black;
+}
+
+.clients .clients-info p {
+    color: #fff;
+    font-size: 18px
+}
+
+.clients .client-logo img {
+    width: 200px;
+    opacity: 0.6;
+    margin: 40px 0;
+    cursor: pointer;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.clients .client-logo:hover img {
+    opacity: 1;
+    width: 225px
+}
+
+/*end clients*/
+/*start contact*/
+.contact {
+    padding: 50px 0 80px;
+}
+
+.contact .contact-info {
+
+    margin-bottom: 70px
+}
+
+.contact .contact-info h2 {
+    margin-bottom: 30px;
+    color: #2c2424;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: -3px -2px 13px black;
+}
+
+.contact .contact-info p {
+    color: #776b6b;
+    font-size: 18px
+}
+
+.contact .input-group-prepend {
+    margin-bottom: 25px;
+}
+
+.contact .form-control {
+    margin-bottom: 19px;
+}
+
+.contact .input-group-prepend .input-group-text {
+    margin-bottom: 20px
+}
+
+.contact .input-group-prepend .input-group-text i {
+    font-size: 20px
+}
+
+.contact button {
+    width: 100%
+}
+
+/*end contact*/
 @media (max-width: 768px) color: #776b6b;
 color: #2c2424;
 #007bff
